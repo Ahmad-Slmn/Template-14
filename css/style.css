@@ -1444,11 +1444,6 @@
     border-color: transparent transparent transparent green
 }
 
-@media (max-width:767px) {
-    .plans-page .plan ul li .tolltip {
-        display: none
-    }
-}
 
 /* End Plans Page */
 
