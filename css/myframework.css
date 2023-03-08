@@ -1,0 +1,402 @@
+/* Start Box */
+.d-flex {
+    display: flex
+}
+
+.d-grid {
+    display: grid
+}
+
+.d-block {
+    display: block
+}
+
+.gap-20 {
+    grid-gap: 20px
+}
+
+.align-center {
+    align-items: center
+}
+
+@media(max-width:767px) {
+    .block-mobile {
+        display: block
+    }
+
+    .hide-mobile {
+        display: none
+    }
+
+    .txt-c-mobile {
+        text-align: center
+    }
+}
+
+.w-full {
+    width: 100%
+}
+
+.w-100 {
+    width: 100px
+}
+
+.w-fit {
+    width: fit-content
+}
+
+.h-full {
+    height: 100%
+}
+
+.h-100 {
+    height: 100px
+}
+
+.space-between {
+    justify-content: space-between
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+#charCount {
+    background: #e7e3e3;
+    padding: 0 16px;
+    color: green;
+    border-radius: 6px;
+    width: fit-content;
+    position: relative;
+    bottom: -10px;
+    left: 40%;
+    display: none
+}
+
+.fa-arrow-up {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 15px;
+    background-color: var(--blue-color);
+    cursor: pointer;
+    border-radius: 15px;
+    color: #fff;
+    visibility: hidden;
+    transition: all 1s ease-in-out;
+    z-index: 99
+}
+
+/* End  Box */
+
+/* Start Position */
+.p-relative {
+    position: relative
+}
+
+.p-absolute {
+    position: absolute
+}
+
+/* End Position */
+
+/* Start Padding + Margin */
+
+.p-10 {
+    padding: 10px
+}
+
+.p-15 {
+    padding: 20px
+}
+
+
+.p-20 {
+    padding: 20px
+}
+
+.pt-20 {
+    padding-top: 20px
+}
+
+.pt-10 {
+    padding-top: 10px
+}
+
+.pt-15 {
+    padding-top: 15px
+}
+
+.pb-15 {
+    padding-bottom: 15px
+}
+
+.pb-10 {
+    padding-bottom: 10px
+}
+
+.pl-15 {
+    padding-left: 15px
+}
+
+.pl-70 {
+    padding-left: 70px
+}
+
+.m-20 {
+    margin: 20px
+}
+
+.m-15 {
+    margin: 15px
+}
+
+.mt-15 {
+    margin-top: 15px
+}
+
+.mt-20 {
+    margin-top: 20px
+}
+
+.mt-10 {
+    margin-top: 10px
+}
+
+.mt-25 {
+    margin-top: 25px
+}
+
+.mt-5 {
+    margin-top: 5px
+}
+
+.mt-0 {
+    margin-top: 0
+}
+
+.mb-25 {
+    margin-bottom: 25px
+}
+
+.mb-20 {
+    margin-bottom: 20px
+}
+
+.mb-15 {
+    margin-bottom: 15px
+}
+
+.mb-10 {
+    margin-bottom: 10px
+}
+
+.mb-5 {
+    margin-bottom: 5px
+}
+
+.mr-10 {
+    margin-right: 10px
+}
+
+.mr-15 {
+    margin-right: 15px
+}
+
+/* End Padding + Margin */
+
+/* Start Color */
+.bg-eee {
+    background-color: #eee
+}
+
+.bg-blue {
+    background-color: blue
+}
+
+.bg-red {
+    background-color: red
+}
+
+.bg-orange {
+    background-color: orange
+}
+
+
+.bg-green {
+    background-color: green
+}
+
+.bg-white {
+    background-color: white
+}
+
+.bg-black {
+    background-color: black
+}
+
+.c-black {
+    color: black
+}
+
+.c-red {
+    color: red
+}
+
+.c-blue {
+    color: blue
+}
+
+.c-green {
+    color: green
+}
+
+.c-orange {
+    color: orange
+}
+
+.c-white {
+    color: white
+}
+
+
+.c-grey {
+    color: var(--grey-color)
+}
+
+/* End Color */
+
+/* Start Border */
+.rad-6 {
+    border-radius: 6px
+}
+
+.rad-10 {
+    border-radius: 10px
+}
+
+.b-none {
+    border: none
+}
+
+.b-eee {
+    border: 1px solid var(--b-color)
+}
+
+.rad-half {
+    border-radius: 50%
+}
+
+.border-ccc {
+    border: 1px solid #ccc
+}
+
+/* End Border */
+
+/* Strat Font */
+.txt-c {
+    text-align: center
+}
+
+.fs-13 {
+    font-size: 13px
+}
+
+.fs-14 {
+    font-size: 14px
+}
+
+.fs-15 {
+    font-size: 15px
+}
+
+.fs-25 {
+    font-size: 25px
+}
+
+.fw-bold {
+    font-weight: bold
+}
+
+@media(max-width:767px) {
+    .text-c-mobil {
+        text-align: center
+    }
+}
+
+/* End Font */
+
+/* Start Components */
+.center-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.f-wrap {
+    flex-wrap: wrap
+}
+
+.between-flex {
+    display: flex;
+    align-items: center;
+    justify-content: space-between
+}
+
+.center-flex {
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.btn-shape {
+    padding: 4px 10px;
+    border-radius: 6px
+}
+
+.toggle-checkbox {
+    -webkit-appearance: none;
+    appearance: none;
+    display: none
+}
+
+.toggle-switch {
+    background-color: #ccc;
+    width: 78px;
+    height: 32px;
+    border-radius: 16px;
+    transition: 0.3s;
+    cursor: pointer;
+    position: relative
+}
+
+.toggle-switch::before {
+    font-family: "Font Awesome 6 Free";
+    content: "\f00d";
+    font-weight: 900;
+    background-color: white;
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: #aaa;
+    transition: 0.3s
+}
+
+.toggle-checkbox:checked + .toggle-switch {
+    background-color: var(--blue-color)
+}
+
+.toggle-checkbox:checked + .toggle-switch::before {
+    content: "\f00c";
+    left: 50px;
+    color: var(--blue-color)
+}
+
+/* End Components */
