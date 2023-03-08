@@ -1233,6 +1233,11 @@
     font-size: 35px;
     opacity: .5
 }
+.friends-page .friend > div img{
+    border: 1px solid #fff;
+    padding: 2px;
+    box-shadow: 0 0 5px #ddd
+}
 
 /* End Friends Page */
 
