@@ -1444,6 +1444,11 @@
     border-color: transparent transparent transparent green
 }
 
+@media (max-width:767px) {
+    .plans-page .plan ul li .tolltip::after {
+        right: -19px
+    }
+}
 
 /* End Plans Page */
 
