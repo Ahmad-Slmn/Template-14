@@ -265,6 +265,42 @@
         </div>
     </div>
     <i class="fa fa-arrow-up" id="arrow-up"></i>
+    <div class="loader">
+        <div class="lds-ripple">
+            <div></div>
+            <div></div>
+        </div>
+    </div>
     <script src="js/main.js"></script>
-</body></html>
-    
+    <script>
+        // Counter The Wrods in Textarea when I Write
+        let charCount = document.getElementById("charCount")
+
+        let input = document.getElementById("myInput");
+
+        let max_length = input.getAttribute("maxlength")
+
+        input.oninput = function() {
+            charCount.innerHTML = max_length - this.value.length;
+
+            if (charCount.innerHTML == 0) {
+
+                charCount.style.color = "red";
+
+            } else if (charCount.innerHTML <= 50) {
+                charCount.style.color = "orange"
+            } else {
+                charCount.style.color = "green"
+            }
+
+            if (input.value == "") {
+                charCount.style.display = "none";
+            } else {
+                charCount.style.display = "block";
+            }
+        }
+
+    </script>
+</body>
+
+</html>
